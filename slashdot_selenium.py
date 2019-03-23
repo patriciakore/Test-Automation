@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 import unittest
 import random
@@ -5,6 +6,13 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+
+#This test navigates to slashdot.org site, finds and prints the number of articles
+#and unique images. It also navigates to polls site and votes for an option and prints
+#which option the user voted for
+
+
 
 class TestSlashdot(unittest.TestCase):
 
